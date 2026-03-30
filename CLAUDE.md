@@ -35,6 +35,13 @@
 
 開発手順、ビルドコマンド、環境構築については [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。
 
+### 開発手法
+
+TDD（テスト駆動開発）で進める。
+
+- 実装前に必ずテストを書く（Red → Green → Refactor）
+- テストフレームワーク: Vitest + @testing-library/react
+
 ## 関連ドキュメント
 
 - [プロダクト要求定義書](.claude/docs/product-requirements.md)
