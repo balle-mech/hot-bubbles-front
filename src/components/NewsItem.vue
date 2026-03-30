@@ -19,7 +19,9 @@ const props = defineProps({
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 30%;
+  width: 95%;
+  height: 100%;
+  align-content: center;
 }
 
 .news-item.large {
