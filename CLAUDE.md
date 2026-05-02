@@ -10,8 +10,8 @@
 
 - **CLAUDE.md**（本ファイル）: 開発ルール、ドキュメント管理方針
 - **[プロダクト要求定義書](.claude/docs/product-requirements.md)**: プロダクトのビジョン、目的、要求事項
-- **[技術仕様書](.claude/docs/architecture.md)**: アーキテクチャ、技術選定、UI/UX設計、API設計
-- **[リポジトリ構造定義書](.claude/docs/repository-structure.md)**: ディレクトリ構造、ファイル命名規則
+- **[技術仕様書](.claude/docs/architecture.md)**: アーキテクチャ、技術選定、デプロイ戦略
+- **[リポジトリ構造規約](.claude/rules/repository-structure.md)**: ディレクトリ構造、ファイル命名規則
 
 ### ステアリングドキュメント（作業単位）
 
@@ -33,7 +33,7 @@
 
 ## 開発について
 
-開発手順、ビルドコマンド、環境構築については [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。
+開発環境はDockerコンテナで動かす。詳細は [技術仕様書](.claude/docs/architecture.md) を参照。
 
 ### 開発手法
 
@@ -46,7 +46,7 @@ TDD（テスト駆動開発）で進める。
 
 - [プロダクト要求定義書](.claude/docs/product-requirements.md)
 - [技術仕様書](.claude/docs/architecture.md)
-- [リポジトリ構造定義書](.claude/docs/repository-structure.md)
+- [リポジトリ構造規約](.claude/rules/repository-structure.md)
 
 ## 図表の更新
 
